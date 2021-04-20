@@ -5,7 +5,7 @@ body{
      */
     background-repeat: no-repeat;
     background-attachment:fixed;
-    height: 5500px;
+    height: 600vh;
 }
 
 
@@ -49,7 +49,7 @@ a{
     color: rgb(49, 49, 49);
 }
 
-section.sub
+/* section.sub
 {
     display: block;
     height: 50px;
@@ -57,7 +57,7 @@ section.sub
     border: 3px solid greenyellow;
     position: fixed;
     
-}
+} */
 
 div.content{
     margin-right: auto;
@@ -81,11 +81,12 @@ div.content ul li{
 }
 
 div.content h2{
-    color: plum ;
+    font-size: 300%;
+    color: rgb(248, 11, 11) ;
 }
 
 div.content p{
-    color: powderblue ;
+    color: rgb(0, 0, 0) ;
 }
 
 div.content h3{
