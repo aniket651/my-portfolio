@@ -1,18 +1,13 @@
 
-html{
-    background-image: url("https://c1.wallpaperflare.com/preview/942/721/170/natural-night-sky-stars.jpg") ;
-    background-size: cover;
-    height: 100%;
-    /* overflow: hidden; */
-    background-repeat: no-repeat;
-    background-attachment:fixed;
-}
+
 
 body{
+    scroll-behavior: smooth;
+    margin: 0px;
     font-size: 200%;
     background-repeat: no-repeat;
-    background-attachment:fixed;
-    height: 600vh;
+    /* background-attachment:fixed;
+    height: 600vh; */
 }
 
 
@@ -26,30 +21,33 @@ div.logo{
     top: 60px;
     left: 0px;
 }
-div.navbar{
+nav.navbar{
     /* background-color: rgb(12, 0, 39); */
     
     text-align: right;
     /* border: 3px solid chartreuse; */
-    display:flex;
+    display:inline-flex;
     z-index: 999;
     justify-content: center;
     flex-wrap: wrap;
-    /* position: fixed;
+    position: fixed;
+    
+    
     top: 0px;
-    right: 0px; */
+    right: 0px;
 }
 
-div.navbar ul{
+nav.navbar ul{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     /* flex-direction: row-reverse; */
 }
-div.navbar li{
+nav.navbar li{
     margin-left: 17px;
     margin-right: 17px;
     list-style: none;
+    
 
     /* display: inline-block; */
 }
@@ -62,6 +60,8 @@ a{
 a:hover{
     color: rgb(82, 81, 81);
 }
+
+
 
 /* section.sub
 {
@@ -89,16 +89,99 @@ div.content{
     width: 700px;
 }
 .myimg{
+    /* height: 200px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: auto; */
+
     height: 200px;
     display: flex;
     align-content: center;
     justify-content: center;
-
-    
+    position: relative;
+    top: 120px;
     margin: auto;
 }
 
 div.content h2{
     font-size: 300%;
     color: rgb(248, 11, 11) ;
+}
+
+#home{
+    background-image: url("https://c1.wallpaperflare.com/preview/942/721/170/natural-night-sky-stars.jpg") ;
+    background-size: cover;
+    height: 100vh;
+    /* overflow: hidden; */
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    box-sizing: border-box;
+}
+
+#about{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/70/88/19/nature-landscape-mountain-rock-sky-night-stars-milky-way-rock-formation-rock-formation-wallpaper-preview.jpg") ;
+    background-size: cover;
+    height: 100vh;
+    /* overflow: hidden; */
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    box-sizing: border-box;
+}
+#about h1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    margin-top: 0px;
+    color: rgb(212, 40, 40);
+}
+
+#about h2{
+    position: relative;
+    top: 80px;
+
+}
+
+#about .contentbox {
+    /* display: inline-block; */
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    top: 130px;
+    color: #ffc107;
+    font-family: monospace;
+    background-color: black;
+    
+}
+
+#skills{
+    background-image: url("https://image.freepik.com/free-vector/abstract-flat-colorful-geometric-shapes-background_144290-24.jpg");
+    background-size: cover;
+    height: 100vh;
+    /* overflow: hidden; */
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    box-sizing: border-box;
+}
+
+#skills p{
+    margin : 0px;
+}
+
+#projects{
+    background-image: url("https://image.freepik.com/free-vector/halftone-background-with-circles_23-2148907689.jpg") ;
+    background-size: cover;
+    height: 100vh;
+    /* overflow: hidden; */
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    box-sizing: border-box;
+}
+
+#projects p{
+    margin : 0px;
 }
