@@ -20,6 +20,7 @@ div.logo{
     position: fixed;
     top: 60px;
     left: 0px;
+    /* z-index: 100; */
 }
 nav.navbar{
     /* background-color: rgb(12, 0, 39); */
@@ -159,7 +160,7 @@ div.content h2{
 }
 
 #skills{
-    background-image: url("https://image.freepik.com/free-vector/abstract-flat-colorful-geometric-shapes-background_144290-24.jpg");
+    background-image: url("https://c.wallhere.com/photos/76/ab/mountains_desert_night-1964.jpg!d");
     background-size: cover;
     height: 100vh;
     /* overflow: hidden; */
@@ -170,6 +171,207 @@ div.content h2{
 
 #skills p{
     margin : 0px;
+}
+
+#skills h1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    margin-top: 0px;
+    color: rgb(212, 40, 40);
+}
+
+#skills h3{
+    color: cornflowerblue;
+}
+
+#skills h4{
+    color: rgb(255, 104, 17);
+}
+
+.divskill{
+    display: flex;
+    justify-content:space-around;
+}
+
+.lang{
+    display: inline-block;
+}
+
+.frontend{
+    display: inline-block;
+}
+
+.devtools{
+    display: inline-block;
+}
+
+.cbar{
+    border: 3px solid blue;
+    height: 8px;
+    width: 100%;
+    border-radius: 15px;
+    
+}
+
+.bar1{
+    background-color: white;
+    width: 70%;
+    height: 100%;
+    border-radius: inherit;
+    overflow: hidden;
+    box-shadow: blue;
+    animation: bar1 2s;
+}
+
+@keyframes bar1 {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+/* ------------------ */
+.cppbar{
+    border: 3px solid blue;
+    height: 8px;
+    width: 100%;
+    border-radius: 15px;
+    
+}
+
+.bar2{
+    background-color: white;
+    width: 60%;
+    height: 100%;
+    border-radius: inherit;
+    overflow: hidden;
+    box-shadow: blue;
+    animation: bar2 2s;
+}
+
+@keyframes bar2 {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+/* ------------------ */
+.javabar{
+    border: 3px solid blue;
+    height: 8px;
+    width: 100%;
+    border-radius: 15px;
+    
+}
+
+.bar3{
+    background-color: white;
+    width: 5%;
+    height: 100%;
+    border-radius: inherit;
+    overflow: hidden;
+    box-shadow: blue;
+    animation: bar3 2s;
+}
+
+@keyframes bar3 {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 5%;
+    }
+}
+
+/* ------------------ */
+.htmlbar{
+    border: 3px solid blue;
+    height: 8px;
+    width: 100%;
+    border-radius: 15px;
+    
+}
+
+.bar4{
+    background-color: white;
+    width: 20%;
+    height: 100%;
+    border-radius: inherit;
+    overflow: hidden;
+    box-shadow: blue;
+    animation: bar4 2s;
+}
+
+@keyframes bar4 {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 20%;
+    }
+}
+
+/* ------------------ */
+.cssbar{
+    border: 3px solid blue;
+    height: 8px;
+    width: 100%;
+    border-radius: 15px;
+    
+}
+
+.bar5{
+    background-color: white;
+    width: 9%;
+    height: 100%;
+    border-radius: inherit;
+    overflow: hidden;
+    box-shadow: blue;
+    animation: bar5 2s;
+}
+
+@keyframes bar5 {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 9%;
+    }
+}
+
+/* ------------------ */
+.gitbar{
+    border: 3px solid blue;
+    height: 8px;
+    width: 100%;
+    border-radius: 15px;
+    
+}
+
+.bar6{
+    background-color: white;
+    width: 30%;
+    height: 100%;
+    border-radius: inherit;
+    overflow: hidden;
+    box-shadow: blue;
+    animation: bar6 2s;
+}
+
+@keyframes bar6 {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 30%;
+    }
 }
 
 #projects{
